@@ -79,5 +79,28 @@ Algorithm:
 - Step 11: Add matrix[i][n - i - 1] to secondarySum.
 - Step 12: Display both primarySum and secondarySum.
 - Step 13: End.
-  
+
+#Program e: This C++ program calculates the transpose of a matrix entered by the user. A transpose of a matrix is formed by interchanging its rows and columns. For example, if the original matrix is of size m x n, its transpose will be of size n x m. The program starts by reading the number of rows and columns, then takes input for all elements of the matrix. It then fills a second matrix called transpose, where each element at position [j][i] is set equal to the element at [i][j] in the original matrix. Finally, the transpose matrix is printed in the output.
+
+Algorithm:
+
+- Step 1: Start
+- Step 2: Input the number of rows and columns of the matrix.
+- Step 3: Declare two 2D arrays:
+matrix[rows][cols] to store the original matrix.
+transpose[cols][rows] to store the transposed matrix.
+- Step 4: Read the elements of the matrix using two nested loops:
+- Step 5: For i = 0 to rows - 1
+- Step 6: For j = 0 to cols - 1
+- Step 7: Input matrix[i][j]
+- Step 8: Transpose the matrix:
+- Step 9: For i = 0 to rows - 1
+- Step 10: For j = 0 to cols - 1
+- Step 11: Set transpose[j][i] = matrix[i][j]
+- Step 12: Display the transposed matrix:
+- Step 13: For i = 0 to cols - 1
+- Step 14: For j = 0 to rows - 1
+- Step 15: Output transpose[i][j]
+- Step 16: End.
+
 
