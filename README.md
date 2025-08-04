@@ -66,18 +66,18 @@ Algorithm:
 
 Algorithm:
 
-Step 1: Start
-Step 2: Input the size n of the square matrix.
-Step 3: Declare a 2D array matrix[n][n].
-Step 4: Read all elements of the matrix using two nested loops:
-Step 5: Outer loop for rows i = 0 to n-1
-Step 6: Inner loop for columns j = 0 to n-1
-Step 7: Input each matrix[i][j]
-Step 8: Initialize two variables: primarySum = 0 and secondarySum = 0.
-Step 9: Traverse the matrix diagonally in a single loop from i = 0 to n-1:
-Step 10: Add matrix[i][i] to primarySum.
-Step 11: Add matrix[i][n - i - 1] to secondarySum.
-Step 12: Display both primarySum and secondarySum.
-Step 13: End.
+- Step 1: Start
+- Step 2: Input the size n of the square matrix.
+- Step 3: Declare a 2D array matrix[n][n].
+- Step 4: Read all elements of the matrix using two nested loops:
+- Step 5: Outer loop for rows i = 0 to n-1
+- Step 6: Inner loop for columns j = 0 to n-1
+- Step 7: Input each matrix[i][j]
+- Step 8: Initialize two variables: primarySum = 0 and secondarySum = 0.
+- Step 9: Traverse the matrix diagonally in a single loop from i = 0 to n-1:
+- Step 10: Add matrix[i][i] to primarySum.
+- Step 11: Add matrix[i][n - i - 1] to secondarySum.
+- Step 12: Display both primarySum and secondarySum.
+- Step 13: End.
   
 
