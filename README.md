@@ -42,7 +42,7 @@ Algorithm:
 
 Algorithm:
 
-- Step 1: Start the program.
+- Step 1: Start
 - Step 2: Input the number of rows (r1) and columns (c1) for the first matrix.
 - Step 3: Input the number of rows (r2) and columns (c2) for the second matrix.
 - Step 4: Check if matrix multiplication is possible:
@@ -60,6 +60,24 @@ Algorithm:
 - Step 16: For each k from 0 to c1 - 1 (or r2 - 1)
 - Step 17: Multiply A[i][k] * B[k][j] and add it to result[i][j].
 - Step 18: Display the resulting matrix result[r1][c2].
-- Step 19: End. 
+- Step 19: End.
+
+#Program d: This C++ program is designed to calculate the sum of the primary and secondary diagonals of a square matrix. The user is first prompted to enter the size of the matrix (since it must be square, only one dimension is needed), and then to enter each of the matrix elements. After the matrix is filled, the program uses a loop to compute two separate sums. The primary diagonal (also known as the main diagonal) contains elements where the row and column indices are the same, i.e., matrix[i][i]. The secondary diagonal (also called the anti-diagonal) contains elements where the column index is the reverse of the row index, i.e., matrix[i][n - i - 1].
+
+Algorithm:
+
+Step 1: Start
+Step 2: Input the size n of the square matrix.
+Step 3: Declare a 2D array matrix[n][n].
+Step 4: Read all elements of the matrix using two nested loops:
+Step 5: Outer loop for rows i = 0 to n-1
+Step 6: Inner loop for columns j = 0 to n-1
+Step 7: Input each matrix[i][j]
+Step 8: Initialize two variables: primarySum = 0 and secondarySum = 0.
+Step 9: Traverse the matrix diagonally in a single loop from i = 0 to n-1:
+Step 10: Add matrix[i][i] to primarySum.
+Step 11: Add matrix[i][n - i - 1] to secondarySum.
+Step 12: Display both primarySum and secondarySum.
+Step 13: End.
   
 
